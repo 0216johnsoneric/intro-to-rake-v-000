@@ -14,8 +14,4 @@ desc 'outputs hello to the terminal'
     puts "hola de Rake!"
   end
 
-  desc 'drop into the Pry console'
-  task :console => :environment do
-    Pry.start
-  end
 end
